@@ -29,7 +29,7 @@ const goodReplies = [
   "One love",
   "Ain't no thang",
   "Good hang",
-  "<:ConceitedReaction:497265887934414848>"
+  "<:ConceitedReaction:497265887934414848>",
 ];
 const badReplies = [
   "<:pikatroll:278578088529494017>",
@@ -42,11 +42,10 @@ const badReplies = [
   didLeaveStoveOn,
   "Who hurt you",
   thonk,
-  "I'm only like 2 months old"
+  "I'm only like 2 months old",
 ];
 
 function autoResponder(message, text) {
-  console.log(`${message.member.user.tag}: ${message.content}`)
   if (text.includes("bye")) {
     message.channel.send("Bye, Bye Butterfree!");
     return;

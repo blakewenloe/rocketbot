@@ -29,12 +29,11 @@ const alphabet = {
   y: "<:unowny:562791921165271049>",
   z: "<:unownz:562791921144299561>",
   "!": "<:unownexlaim:562791920674406431>",
-  "?": "<:unownquestion:562791920774938635>"
+  "?": "<:unownquestion:562791920774938635>",
 };
 
 function unownSpeller(message, words) {
   let letters = "";
-  let wordCount = words.split(" ");
   for (var i = 0; i < words.length; i++) {
     if (alphabet[words[i]]) {
       letters += alphabet[words[i]];
