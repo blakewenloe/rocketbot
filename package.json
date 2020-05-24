@@ -1,0 +1,16 @@
+{
+  "name": "spritebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "promisify": "0.0.3",
+    "request": "^2.88.0",
+    "sleep": "^5.2.4",
+    "util.promisify": "^1.0.0",
+    "uuid": "^3.3.3"
+  }
+}
