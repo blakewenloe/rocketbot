@@ -88,10 +88,6 @@ function autoResponder(message, text) {
     message.channel.send("Meowth! That's right!");
     return;
   }
-  if (text.includes("blake")) {
-    console.log(`${message.member.user.tag}`, text);
-    return;
-  }
   return;
 }
 module.exports = autoResponder;
